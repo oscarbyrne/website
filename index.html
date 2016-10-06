@@ -3,46 +3,58 @@
 <head>
   <title>Oscar</title>
   <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <link rel="stylesheet" media="only screen and (min-width: 901px)" href="css/large.css" />
+  <link rel="stylesheet" media="only screen and (max-width: 900px) and (min-width: 601px)" href="css/medium.css" />
+  <link rel="stylesheet" media="only screen and (max-width: 600px)" href="css/small.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
 </head>
+
 <body>
-  <div class="container">
-    <div class="contact">
-      <div class="text-left">
-        <h1>Hi!</h1>
-        <p class="intro">
-          You found my website.<br />
-          Get in touch:
-        </p>
-      </div>
-      <div class="text-right">
-        <a class="email" href="mailto:oscar.byrne@gmail.com">oscar.byrne@gmail.com</a>
-        <hr />
-        <ul class="list-unstyled">
-          <a href="https://www.linkedin.com/in/oscarbyrne">
-            <li>
-              <img style="float:left" src="linkedin.jpg" height=15px width=15px />
-              linkedin.com/in/oscarbyrne
-            </li>
-          </a>
-          <a href="https://github.com/oscarbyrne">
-            <li>
-              <img style="float:left" src="github.png" height=15px width=15px />
-              github.com/oscarbyrne
-            </li>
-          </a>
-          <hr />
-          <a href="https://soundcloud.com/mekon92">
-            <li>
-              <img style="float:left" src="soundcloud.ico" height=15px width=15px />
-              soundcloud.com/mekon92
-            </li>
-          </a>
-        </ul>
-      </div>
+  <div class="main-block">
+
+    <div class="intro">
+      <h1>Hi!</h1>
+      <p>
+        You found my website.<br />
+        Get in touch:
+      </p>
     </div>
+
+    <ul class="contact-list">
+
+      <a href="mailto:oscar.byrne@gmail.com">
+      <li>
+        <img src="media/gmail.png" />
+        oscar.byrne@gmail.com
+      </li>
+      </a>
+
+      <hr />
+
+      <a href="https://www.linkedin.com/in/oscarbyrne">
+      <li>
+        <img src="media/linkedin.jpg" />
+        linkedin.com/in/oscarbyrne
+      </li>
+      </a>
+
+      <a href="https://github.com/oscarbyrne">
+      <li>
+          <img src="media/github.png" />
+          github.com/oscarbyrne
+      </li>
+      </a>
+
+      <hr />
+
+      <a href="https://soundcloud.com/mekon92">
+      <li>
+        <img src="media/soundcloud.ico" />
+        soundcloud.com/mekon92
+      </li>
+      </a>
+
+    </ul>
   </div>
 </body>
 </html>

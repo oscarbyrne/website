@@ -1,0 +1,50 @@
+* {
+  font-family: 'Source Code Pro', monospace;
+}
+.main-block {
+  margin-top: 5vw;
+  margin-left: 5vw;
+  width: 81vw;
+}
+.intro {
+  text-align: left;
+}
+.intro h1 {
+  font-size: 13.5vw;
+  margin-bottom: 3vw;
+}
+.intro p {
+  font-size: 4.5vw;
+  margin-bottom: 9vw;
+}
+.contact-list {
+  font-size: 3.6vw;
+  text-align: right;
+  line-height: 6vw;
+  padding-left: 0;
+  list-style: none;
+}
+.contact-list hr {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.contact-list img {
+  float: left;
+  height: 1em;
+  width: 1em;
+  margin-top: 0.37em;
+}
+.contact-list a:link {
+  color: #000000;
+  text-decoration: none;
+}
+.contact-list a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+.contact-list a:hover {
+  color: #666666;
+  text-decoration: underline;
+}
