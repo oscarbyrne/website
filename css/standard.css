@@ -12,17 +12,12 @@ html {
 body {
   width: 18rem;
   margin: auto;
-  margin-top: 3rem;
-}
-
-figure {
-  height: 18rem;
-  width: 18rem;
-  margin: auto;
 }
 
 figure img {
   height: 18rem;
+  width: 18rem;
+  margin-top: 3rem;
 }
 
 figure figcaption .content {
