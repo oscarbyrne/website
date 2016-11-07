@@ -14,19 +14,19 @@ body {
   margin: auto;
 }
 
-figure img {
+.selfie img {
   height: 18rem;
   width: 18rem;
   margin-top: 3rem;
 }
 
-figure figcaption .content {
-  float: right;
-}
-
-figure figcaption .label {
+.figure-label {
   float: left;
   font-weight: bold;
+}
+
+.figure-content {
+  float: right;
 }
 
 address {
@@ -34,16 +34,20 @@ address {
   text-align: right;
 }
 
-address menu {
-  list-style-type: none; /*Remove bullets*/
-}
-
-address menu a {
+address a {
   outline: 0; /*Remove dotted border*/
   display: block; /*Span list item*/
   color: black;
   text-decoration: none;
   font-style: normal;
+}
+
+address a:hover {
+  color: #C3687A; /*Echo colour from profile photo*/
+}
+
+address li {
+  list-style-type: none; /*Remove bullets*/
   padding-right: 2rem;
   background-color: transparent;
   background-repeat: no-repeat;
@@ -51,23 +55,7 @@ address menu a {
   background-size: 1rem 1rem;
 }
 
-address menu a:hover {
-  color: #C3687A; /*Echo colour from profile photo*/
-}
-
-address menu a[href="mailto:oscar.byrne@gmail.com"] {
-  background-image: url("../img/gmail.png");
-}
-
-address menu a[href="https://www.linkedin.com/in/oscarbyrne"] {
-  background-image: url("../img/linkedin.png");
-}
-
-address menu a[href="https://github.com/oscarbyrne"] {
-  background-image: url("../img/github.png");
-}
-
-address menu a[href="https://oscarbyrne.github.io/cv/"] {
-  background-image: url("../img/pointer.png");
-}
-
+#email    {background-image: url("../img/gmail.png");}
+#linkedin {background-image: url("../img/linkedin.png");}
+#github   {background-image: url("../img/github.png");}
+#cv       {background-image: url("../img/pointer.png");}
